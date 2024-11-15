@@ -14,7 +14,7 @@ app.get('/hobby', (req,res) => {
 })
 
 app.get('/dream', (req, res) => {
-  res.send('my dream is being successfull sofftware engineer that changMy dream is to become a successful software engineer and make a positive impact in the world through technology.')
+  res.send('My dream is to become a successful software engineer and make a positive impact in the world through technology.')
 })
 
 app.listen(port, () => {
